@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidades Medida</title>
+
+    <style>
+
+        :root{
+            font-size: 16px;
+        }
+
+        p{
+            font-size: 2rem;
+            /* 
+            1rem = 16px (Siempre que no se cambie el font-size del root), para normalizar los estilos y para los tamaños de las fuentes
+             */
+
+             1em = 100% del tamaño de la fuente 
+        }
+
+        h1{
+            font-size: 3rem;
+            /* 
+            100% = 16px font-size: 16px 300% = 16*3
+             */
+        }
+
+        span{
+            font-size: 2.5em;
+            /* 
+            Span dentro del h1 = 3rem(48px)*2.5 = 120px
+            Span dentro del p = 2rem(32px)*2.5 = 80px
+             */
+        }
+
+        .btn{
+            background: blueviolet;
+            color: whitesmoke;
+            /* padding: 1em 2em; */
+            padding: 16px 32px;
+            text-decoration: none;
+            /* border-radius: .25rem; */
+            border-radius: 4px;
+            font-size: 4rem;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+
+    <h1>Titulo de <span>nivel 1</span></h1>
+    <p>Hola buenos <span>d&iacute;as como esta...?</span></p>
+
+    <a href="https://www.google.com.co" class="btn">Ir a Google</a>
+    
+</body>
+</html>
